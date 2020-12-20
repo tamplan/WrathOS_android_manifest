@@ -6,7 +6,7 @@
           revision="ten" />
 
   <remote name="wrath-devices"
-          fetch="https://github.com/WrathOS-Devices/" />
+          fetch="https://github.com/tamplan/" />
 
   <remote name="github"
           fetch="https://github.com/" />
