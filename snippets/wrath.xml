@@ -50,8 +50,8 @@
   <!-- Wrath Repos -->
   <project path="device/wrath/sepolicy" name="android_device_wrath_sepolicy" remote="wrath" />
   <project path="hardware/wrath/interfaces" name="android_hardware_wrath_interfaces" remote="wrath" />
-  <project path="vendor/wrath" name="android_vendor_wrath" remote="wrath" />
-  <project path="vendor/Rage" name="android_vendor_Rage" remote="wrath" />
+  <project path="vendor/wrath" name="WrathOS_android_vendor_wrath" remote="github" />
+  <project path="vendor/Rage" name="WrathOS_android_vendor_Rage" remote="github" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="wrath-gitlab" />
 
   <!-- System Repos -->
