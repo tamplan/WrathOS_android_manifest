@@ -5,6 +5,10 @@
           fetch="https://github.com/WrathOS/"
           revision="ten" />
 
+  <remote name="tamplan"
+          fetch="https://github.com/tamplan/"
+          revision="ten" />
+
   <remote name="wrath-devices"
           fetch="https://github.com/tamplan/" />
 
@@ -21,10 +25,10 @@
   <!-- General Repos -->
   <project path="art" name="android_art" remote="wrath" />
   <project path="bionic" name="android_bionic" remote="wrath" />
-  <project path="manifest" name="WrathOS_android_manifest" remote="github" />
+  <project path="manifest" name="WrathOS_android_manifest" remote="tamplan" />
 
   <!-- Build Repos -->
-  <project path="build/make" name="WrathOS_android_build" groups="pdk" remote="github" >
+  <project path="build/make" name="WrathOS_android_build" groups="pdk" remote="tamplan" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -50,8 +54,8 @@
   <!-- Wrath Repos -->
   <project path="device/wrath/sepolicy" name="android_device_wrath_sepolicy" remote="wrath" />
   <project path="hardware/wrath/interfaces" name="android_hardware_wrath_interfaces" remote="wrath" />
-  <project path="vendor/wrath" name="WrathOS_android_vendor_wrath" remote="github" />
-  <project path="vendor/Rage" name="WrathOS_android_vendor_Rage" remote="github" />
+  <project path="vendor/wrath" name="WrathOS_android_vendor_wrath" remote="tamplan" />
+  <project path="vendor/Rage" name="WrathOS_android_vendor_Rage" remote="tamplan" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="wrath-gitlab" />
 
   <!-- System Repos -->
